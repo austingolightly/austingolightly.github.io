@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Golightly Firearms Training :: Contact</title>
+<meta charset="utf-8">
+<link href="gft.css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrapper">
+	<a href="index.html">
+		<img src="images/clearlogo.png"
+			alt="logo"
+			height="500"
+			width="500">
+	</a>
+	</div>
+	<header>
+		<h1>Golightly Firearms Training</h1>
+	</header>
+	<hr>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="courses.html">Courses</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<h2>Contact us to schedule your class!</h2>
+		
+		<p>Required fields are marked with an asterisk *.</p>
+			
+			<form method="post" 
+				action="https://webdevbasics.net/scripts/demo.php">
+				
+				<label for="myFName">*First Name:</label>
+				<input type="text" name="myFName" id="myFName" required>
+				
+				<label for="myLName">*Last Name:</label>
+				<input type="text" name="myLName" id="myLName" required>
+				
+				<label for="myEmail">*E-Mail Address:</label>
+				<input type="email" name="myEmail" id="myEmail" required>
+				
+				<label for="myPhone">Phone Number:</label>
+				<input type="tel" name="myPhone" id="myPhone" maxlength=12>
+				
+				<label for="day">Requested Date:</label>
+				<input type="date" name="day" id="day">
+				
+				<label for="nights">Group Size:</label>
+				<input type="number" name="nights" id="nights" min="1" max="5">
+				
+				<label for="myComments">*Comments or Questions:</label>
+				<textarea name="myComments" id="myComments" rows="2" cols="20" required></textarea>
+				
+				<input id="mySubmit" type="submit" value="Submit">
+				
+			</form>
+		
+	</main>
+	<img src="images/range.png"
+		alt="range"
+		height="400"
+		width="600">
+	<footer>
+		<small><i>
+		Copyright &copy; 2022 Golightly Firearms Training<br>
+		<a href="mailto:austingolightly@gmail.com">
+			austingolightly@gmail.com
+		</a>
+		</i></small>
+	</footer>
+
+</body>
+</html>
